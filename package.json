@@ -1,0 +1,25 @@
+{
+  "name": "nosql-social-network-api",
+  "version": "1.0.0",
+  "description": "A set of Api for a social network that uses a Mongo database",
+  "main": "server.js",
+  "scripts": {
+    "test": "N/A",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jack-bartlett/NoSQL-Social-Network-Api.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jack-bartlett/NoSQL-Social-Network-Api/issues"
+  },
+  "homepage": "https://github.com/jack-bartlett/NoSQL-Social-Network-Api#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.4"
+  }
+}
