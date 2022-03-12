@@ -10,9 +10,11 @@ const {
     removeFromFriendList
 
 } = require('../../controllers/userController');
+const { User } = require('../../models');
 
 // GET all and POST routes @ api/users
 router.route('/').get(getAllUsers).post(createNewUser);
+
 
 // GET single, PUT, and DELETE routes @ api/users/:userId
 router
@@ -21,9 +23,9 @@ router
     .put(updateUserById)
     .delete(deleteUserById);
 
-// POST and DELETE routes @ `/api/users/:userId/friends/:friendId`
+// // POST and DELETE routes @ `/api/users/:userId/friends/:friendId`
 router
-    .route('/api/users/:userId/friends/:friendId')
+    .route('/:id/friends/:friendid')
     .post(addToFriendList)
     .delete(removeFromFriendList);
 
