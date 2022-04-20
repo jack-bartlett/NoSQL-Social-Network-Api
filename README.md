@@ -37,9 +37,6 @@ https://youtu.be/julKHGuCw7M
 ![NoSQL-2](https://user-images.githubusercontent.com/90886034/164128314-26c3f717-e79f-41f0-9114-e7b677ae0102.png)
 
 
-![NoSQL-1](https://user-images.githubusercontent.com/90886034/164128334-eddf61ae-7994-4aae-b3af-484847089b5f.png)
-
-
 ## Questions 
 
 If you have any further questions feel free to contact me directly at jackbartlettengineering@gmail.com.
