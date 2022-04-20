@@ -6,34 +6,22 @@
 
   * [Installation](#installation)
 
-  * [Usage](#usage)
-
- * [License](#license) 
-
-  * [Contribution](#contribution)
-
   * [Tests](#tests)
 
   * [License](#license)
 
   * [Questions](#questions)
 
-  * [Walkthrough](#walkthrough)
+  * [Video](#video)
 
 ## Title
 NoSQL-Social-Network-Api
 
 ## Description
-Api for a social networking example that uses a MongoDB database so that the website can handle large amounts of unstructured data. It uses Express, Mongoose, and Moment dependancies. 
+Api for a social network that uses Express for server/routing and a MongoDB database with Mongoose as ODM. This App helps a website handle large amounts of unstructured data. Walkthrough video demonstates requests using Postman
 
 ## Installation
-install node, express, mongodb, and then the above dependancies
-
-## Usage 
-Run npm i and then npm start from the CLI
-
-## Contribution
-N/A
+From the CLI run "npm install" to install dependencies, "npm run seed" to seed the database, and then run "npm start" to spin up the server.
 
 ## Tests
 N/A
@@ -41,9 +29,11 @@ N/A
 ## License
 This project is licensed under the MIT license.
 
-## Walkthrough
+## Video
 
 https://youtu.be/julKHGuCw7M
+
+
 
 
 ## Questions 
